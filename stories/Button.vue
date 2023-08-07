@@ -1,8 +1,8 @@
 <template>
   <div class="w-full bg-yellow-400">
     <p>hello, world</p>
-    <button type="button" :class="classes" @click="onClick" :style="style">{{ label }} </button>
   </div>
+  <button type="button" :class="classes" @click="onClick" :style="style">{{ label }} </button>
 </template>
 
 <script lang="ts" setup>
