@@ -1,6 +1,8 @@
 # Nuxt 3 Minimal Starter 🤝 Storybook 7
 
 A bare-bones Storybook (v7.2) integration with NuxtJS v3.
+Components for Nuxt and stories for Storybook share a folder at
+./components, in lieu of separate/duplicates.
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -29,7 +31,7 @@ Start the development server on `http://localhost:3000`:
 <td>Storybook</td>
 </tr>
 <tr>
-<td> 
+<td>
 
 ```bash
 # yarn
@@ -65,7 +67,7 @@ Build the application for production:
 <td> Nuxt </td> <td>Storybook</td>
 </tr>
 <tr>
-<td> 
+<td>
 
 ```bash
 # yarn
@@ -90,7 +92,7 @@ Locally preview production build:
 <td> Nuxt </td> <td>Storybook</td>
 </tr>
 <tr>
-<td> 
+<td>
 
 ```bash
 # yarn

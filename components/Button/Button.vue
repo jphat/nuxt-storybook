@@ -1,7 +1,4 @@
 <template>
-  <div class="w-full bg-yellow-400">
-    <p>hello, world</p>
-  </div>
   <button type="button" :class="classes" @click="onClick" :style="style">{{ label }} </button>
 </template>
 

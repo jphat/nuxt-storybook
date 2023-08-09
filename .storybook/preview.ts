@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/vue3";
 import { withThemeByDataAttribute } from "@storybook/addon-styling";
-// import '../src/tailwind.css'; // import your .css file
+import '../assets/css/tailwind.css'; // import your .css file
 
 const preview: Preview = {
   parameters: {
@@ -16,7 +16,13 @@ const preview: Preview = {
       storySort: {
         method: '',
         order: [
-          'atoms'
+          'tokens',
+          'protons',
+          'atoms',
+          'molecules',
+          'organisms',
+          'templates',
+          'pages',
         ],
         locales: 'en-US',
       },

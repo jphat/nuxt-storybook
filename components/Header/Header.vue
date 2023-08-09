@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="storybook-header">
-      <div>
+      <!-- <div>
         <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fill-rule="evenodd">
             <path d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z" fill="#FFF" />
@@ -16,23 +16,24 @@
         <my-button size="small" @click="$emit('logout')" label="Log out" v-if="user" />
         <my-button size="small" @click="$emit('login')" label="Log in" v-if="!user" />
         <my-button primary size="small" @click="$emit('createAccount')" label="Sign up" v-if="!user" />
-      </div>
+      </div> -->
     </div>
   </header>
 </template>
 
 <script lang="ts" setup>
-import './header.css';
+// import './header.css';
 // import MyButton from '@components/atoms/Button.vue';
-import MyButton from '../../atoms/button/Button.vue'
+// import MyButton from '../../atoms/button/Button.vue'
+// import MyButton from '@components/Button/Button.vue'
 
-defineProps<{ user: { name: string } | null }>();
+// defineProps<{ user: { name: string } | null }>();
 
-defineEmits<{
-  (event: 'createAccount'): void;
-  (event: 'login'): void;
-  (event: 'logout'): void;
-}>();
+// defineEmits<{
+//   (event: 'createAccount'): void;
+//   (event: 'login'): void;
+//   (event: 'logout'): void;
+// }>();
 
 </script>
 

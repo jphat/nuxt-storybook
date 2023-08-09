@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-yellow-100">
     hola, madre!
   </div>
 </template>
