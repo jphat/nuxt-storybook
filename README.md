@@ -6,6 +6,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Look at the [Storybook 7 documentation](https://storybook.js.org/docs/vue/get-started/install) to learn more.
 
+## This branch
+
+This is a TailwindCSS test branch
+
 ## Setup
 
 Make sure to install the dependencies:
